@@ -1,0 +1,18 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack",
+    "addMode": "webpack --mode development",
+    "configFile": "webpack --config webpack.pro.config.js",
+    "customerOutput": "webpack -o ./dist/ --output-filename bundle2.js --mode development"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
